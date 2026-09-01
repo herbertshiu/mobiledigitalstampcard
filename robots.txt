@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mobiledigitalstampcard.hk/sitemap.xml
+Sitemap: https://www.mobiledigitalstampcard.hk/sitemap.xml
