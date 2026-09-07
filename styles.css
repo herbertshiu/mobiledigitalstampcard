@@ -1078,6 +1078,65 @@ img {
   margin-top: 1.25rem;
 }
 
+.vendor-intro {
+  margin: 1.5rem 0 0.75rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+}
+
+.vendor-note {
+  margin: 0 0 0.85rem;
+  padding: 1.15rem 1.15rem 1.05rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+}
+
+.vendor-note--focus {
+  background: var(--quote-soft);
+  border-color: rgba(42, 77, 110, 0.28);
+}
+
+.vendor-note__name {
+  margin: 0 0 0.25rem;
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.vendor-note__fit {
+  margin: 0 0 0.65rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--quote);
+}
+
+.vendor-note--focus .vendor-note__fit {
+  color: var(--accent-deep);
+}
+
+.vendor-note p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+.vendor-note__cta {
+  margin-top: 0.75rem !important;
+  font-weight: 600;
+  font-size: 0.9rem !important;
+}
+
+.vendor-note__cta a {
+  text-decoration: none;
+}
+
+.vendor-note__cta a:hover {
+  text-decoration: underline;
+}
+
 .essay-next {
   margin-top: 1.75rem;
   padding-top: 1.25rem;
