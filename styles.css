@@ -1063,6 +1063,21 @@ img {
   color: var(--quote);
 }
 
+.soft-cta {
+  margin: 1.25rem 0 0;
+  padding: 1rem 1.1rem;
+  background: var(--quote-soft);
+  border-left: 3px solid var(--quote);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 0.92rem;
+  color: var(--ink);
+  line-height: 1.65;
+}
+
+.letter-envelope .soft-cta {
+  margin-top: 1.25rem;
+}
+
 .essay-next {
   margin-top: 1.75rem;
   padding-top: 1.25rem;
